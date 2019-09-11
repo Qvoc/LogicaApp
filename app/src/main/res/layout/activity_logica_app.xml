@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogicaAppActivity">
+
+    <EditText
+        android:id="@+id/case1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:digits="TF"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:maxLength="1"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/trueTV3"
+        app:layout_constraintTop_toBottomOf="@+id/bTV" />
+
+    <EditText
+        android:id="@+id/case3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:digits="TF"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:maxLength="1"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/trueTV5"
+        app:layout_constraintTop_toBottomOf="@+id/case2" />
+
+    <EditText
+        android:id="@+id/case4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:digits="TF"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:maxLength="1"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/falseTV2"
+        app:layout_constraintTop_toBottomOf="@+id/case3" />
+
+    <TextView
+        android:id="@+id/trueTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="246dp"
+        android:text="@string/trueText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/trueTV3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/trueTV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/trueText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/falseTV3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trueTV" />
+
+    <TextView
+        android:id="@+id/trueTV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/trueText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/case3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/falseTV4"
+        app:layout_constraintTop_toBottomOf="@+id/falseTV3" />
+
+    <TextView
+        android:id="@+id/trueTV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/trueText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/case1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/trueTV"
+        app:layout_constraintTop_toBottomOf="@+id/aTV" />
+
+    <TextView
+        android:id="@+id/falseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/falseText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/falseTV2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/falseTV4" />
+
+    <TextView
+        android:id="@+id/falseTV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/falseText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/trueTV5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trueTV4" />
+
+    <TextView
+        android:id="@+id/falseTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/falseText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/case4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/falseTV"
+        app:layout_constraintTop_toBottomOf="@+id/trueTV5" />
+
+    <TextView
+        android:id="@+id/falseTV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/falseText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/case2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/trueTV4"
+        app:layout_constraintTop_toBottomOf="@+id/trueTV3" />
+
+    <TextView
+        android:id="@+id/aTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/aText"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/trueTV"
+        app:layout_constraintEnd_toStartOf="@+id/bTV"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/bText"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/trueTV3"
+        app:layout_constraintEnd_toStartOf="@+id/abTV"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/aTV" />
+
+    <TextView
+        android:id="@+id/abTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/abText"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/case1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bTV" />
+
+    <EditText
+        android:id="@+id/case2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:digits="TF"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:maxLength="1"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/falseTV3"
+        app:layout_constraintTop_toBottomOf="@+id/case1" />
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/titleText"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/submitText"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

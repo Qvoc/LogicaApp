@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Logica app</string>
+    <string name="titleText">Conjunction (AND)</string>
+    <string name="trueText">T</string>
+    <string name="falseText">F</string>
+    <string name="aText">A</string>
+    <string name="bText">B</string>
+    <string name="abText">A ^ B</string>
+    <string name="submitText">SUBMIT</string>
+    <string name="correct">All answers are correct!</string>
+    <string name="incorrect">Not all answers are correct</string>
+</resources>
